@@ -1,0 +1,13 @@
+bin/
+obj/
+Build/
+packages/
+node_modules/
+node-compile-cache/
+Web/vendor/
+Web/viewer.js
+*.user
+*.suo
+*.qlplugin
+*.zip
+.dotnet/

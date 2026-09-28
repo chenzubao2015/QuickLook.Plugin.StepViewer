@@ -1,0 +1,10 @@
+{
+  "name": "quicklook-plugin-stepviewer-assets",
+  "private": true,
+  "version": "1.4.0",
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "occt-import-js": "0.0.23",
+    "three": "0.186.1"
+  }
+}

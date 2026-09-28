@@ -1,0 +1,31 @@
+name: Feature request
+description: 建议新格式、界面或预览能力
+labels: enhancement
+body:
+  - type: markdown
+    attributes:
+      value: 感谢建议。新增专有 CAD 格式时，请同时说明可使用的解析器或转换方案。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 使用场景
+      description: 你希望解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 建议方案
+      description: 希望插件如何工作？
+    validations:
+      required: true
+  - type: input
+    id: format
+    attributes:
+      label: 涉及的文件格式
+      placeholder: 如不涉及新格式可留空
+  - type: textarea
+    id: additional
+    attributes:
+      label: 其他信息
+      description: 可提供公开文档、开源解析器或界面参考。

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CAD Viewer</title>
+  <link rel="stylesheet" href="viewer.css?v=1.4.0">
+</head>
+<body>
+  <div id="viewport"></div>
+  <div id="loading">
+    <div class="spinner"></div>
+    <strong id="status">正在初始化 CAD 解析器…</strong>
+    <span>首次解析大型装配体可能需要一些时间</span>
+  </div>
+  <div id="error" hidden></div>
+  <div id="model-panel">
+    <div id="dimensions" aria-label="模型尺寸">
+      <span><b>X</b><strong id="size-x">—</strong></span>
+      <span><b>Y</b><strong id="size-y">—</strong></span>
+      <span><b>Z</b><strong id="size-z">—</strong></span>
+      <em>mm</em>
+    </div>
+    <div id="colors" aria-label="模型颜色">
+      <button class="color-mode active" data-mode="gray">灰色</button>
+      <button class="color-mode" data-mode="colorful">彩色</button>
+      <button class="color-mode" data-mode="dark">深色</button>
+    </div>
+    <div id="view-controls" aria-label="视图控制">
+      <button id="fit" title="适合窗口">适合</button>
+      <button id="edges" class="active" title="切换边线">边线</button>
+    </div>
+  </div>
+  <a id="author" href="https://github.com/chenzubao2015" target="_blank" rel="noopener noreferrer">@chenzubao2015</a>
+
+  <script src="vendor/occt-import-js.js?v=1.4.0"></script>
+  <script src="viewer.js?v=1.4.0"></script>
+</body>
+</html>

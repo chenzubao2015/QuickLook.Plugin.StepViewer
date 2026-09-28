@@ -1,0 +1,26 @@
+Third-party components bundled with QuickLook.Plugin.StepViewer
+
+1. occt-import-js
+   Copyright (c) Kovacs Viktor and contributors
+   License: GNU Lesser General Public License v2.1 (LGPL-2.1)
+   Source: https://github.com/kovacsv/occt-import-js
+
+2. three.js
+   Copyright (c) 2010-2026 three.js authors
+   License: MIT
+   Source: https://github.com/mrdoob/three.js
+
+3. Microsoft.Web.WebView2
+   Copyright (c) Microsoft Corporation
+   License: BSD-3-Clause-style license included with the NuGet package
+   Source: https://github.com/MicrosoftEdge/WebView2Feedback
+
+4. QuickLook.Common
+   Copyright (c) QL-Win contributors
+   License: MIT
+   Source: https://github.com/QL-Win/QuickLook
+
+Full third-party license texts are stored in the licenses directory.
+
+This plugin dynamically loads the unmodified occt-import-js WebAssembly and
+JavaScript distribution files. The corresponding source is available at the URL above.
